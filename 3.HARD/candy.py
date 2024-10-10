@@ -11,4 +11,7 @@ class Solution(object):
                 arr[i] = max(arr[i],arr[i+1]+1)
         
         return sum(arr)
-        
+
+ratings = [1,2,2]
+task = Solution()
+print(task.candy(ratings))
